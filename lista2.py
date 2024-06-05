@@ -53,3 +53,12 @@ print(segundos)
 
 preco = 9.99
 print(round(numero,2))
+
+numero1 = int(input('Informe o número 1:'))
+numero2 = int(input('Informe o número 2:'))
+
+if numero1 < numero2:
+    print(numero1)
+else:
+    print(numero2)
+    
